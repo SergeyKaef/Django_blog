@@ -1,0 +1,7 @@
+{% extends 'layouts/base.html' %}
+{% load debug %}
+
+{% block content %}
+    <h2>Отладка объекта</h2>
+    <pre>{{ object|as_dict }}</pre>
+{% endblock content %}
